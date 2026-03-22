@@ -1,0 +1,109 @@
+
+@font-face {
+    font-family: 'NorseBold';
+    src: url('assets/Norse-Bold/Norsebold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#sign-up-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 48, 68);
+}
+
+.presentation-card {
+    position: relative;
+}
+
+.background {
+    height: 100vh;
+    z-index: -1;
+}
+
+.stacked-logo {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    top: 20%;
+}
+
+#odin-image {
+    height: max(150px, 20vh);
+}
+
+#odin-image-title {
+    color: white;
+    font-size: max(100px, 10vh);
+    font-family: 'NorseBold', serif;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    max-width: 40vw;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+}
+
+.intro-description {
+    font-family: serif;
+    font-size: 2.23rem;
+    margin: 50px;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: inline-flex;;
+}
+
+.inputs {
+    background-color: white;
+    box-shadow: 0px 10px 10px rgb(124, 124, 124);
+}
+
+.inputs * {
+    flex-basis: calc(25% - 25px);
+    padding: 10px;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 2.5em;
+    width: 12em;
+    box-shadow: 5px 5px 10px gray;
+    border-width: 0px;
+    margin: 20px;
+}
+
+.login-alternative {
+    font-family: serif; 
+    size: 20px;
+    padding: 20px;
+}
+
+
+
